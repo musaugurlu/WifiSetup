@@ -1,7 +1,7 @@
 # Wifi Setup Exe Program
 
 Exe program that set up wifi on your computer. It looks useless but if you manage a network, you may move this little exe program to computers and set up a script to run it to setup wifi.
-You may use powershell or script for this but either you need to move xml file to computer which is not good as the wifi password can be extracted from it or you need to hide xml file in a shared folder which cause error if the computer is not connected to internet at the time the script runs.
+You may use powershell or script to set up wifi on network computers but either you need to move xml file(if you will use netsh command) to computer which is not good as the wifi password can be extracted from it or you need to hide xml file in a shared folder which causes errors if the computer is not connected to network at the time the script runs.
 So, I found this way. If you like it, feel free to use or change it.
 
 You need to build it with your wifi settings.
